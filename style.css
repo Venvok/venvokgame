@@ -1,0 +1,181 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/bkg2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.notification{
+    text-align: center;
+    height: 6vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.not-text{
+    font-size: 30px;
+    display: inline-block;
+    color: red;
+    animation: venvok 15s linear infinite;
+    padding-left: 100%;
+}
+@keyframes venvok{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.container1{
+    margin-top: 20px;
+    color: white;
+    display: flex;
+}
+.man{
+    color: yellow;
+    margin-left: 50px;
+    margin-top: 13px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+}
+.man:hover{
+    color: blue;
+    cursor: pointer;
+}
+.subcontainer1{
+    margin-top: -2vh;
+}
+#btn1{
+    color: white;
+    border-radius: 30px;
+    background-color: rgb(221, 90, 3);
+    height: 6vh;
+    width: 10vw;
+    margin-left: 30px;
+}
+#btn1:hover{
+    font-weight: bold;
+    color: black;
+    border-radius: 30px;
+    background-color: rgb(2, 100, 12);
+    height: 8vh;
+    width: 12vw;
+    margin-left: 30px;
+}
+.search-bar{
+    display: flex;
+    margin-left: 40vw;
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    width: 490px; 
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.search-bar input {
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.search-bar button {
+    flex: 2;
+    padding: 10px 20px;
+    height: 8vh;
+    border: none;
+    background-color: #ff5722; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.plan{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 4vh;
+    margin-left: 40vw;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+}
+.plans{
+    display: flex;
+    font-size: 20px;
+    color: white;
+    margin-top: 3vh;
+}
+.subscriptions{
+    display: flex;
+    margin-top: 3vh;
+    margin-left: -450px;
+}
+.package{
+    margin-left: 25px;
+    height: 60vh;
+    width: 23vw;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border-color: rgb(255, 198, 25);
+    border-style: solid;
+    border-width: 2px;
+}
+.package:hover{
+    margin-left: 25px;
+    height: 60vh;
+    width: 23vw;
+    background-color:white;
+    color: black;
+    border-radius: 20px;
+    border-color: rgb(1, 28, 201);
+    border-style: solid;
+    border-width: 2px;
+}
+.hed{
+    margin-top: 3vh;
+    margin-left: 2vw;
+    font-size: 20px;
+}
+.price{
+    margin-top: 1vh;
+    margin-left: 2vw;
+    font-size: 30px;
+}
+hr{
+    margin-top: -1vh;
+    width: 85%;
+}
+.headline{
+    margin-left: 2vw;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.headline:hover{
+    margin-left: 2vw;
+    font-size: 18px;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+li{
+    padding-bottom: 5px;
+}
+.buynow{
+    margin-left: 6vw;
+    margin-top: -3vh;
+}
+#btn2{
+    font-weight: bold;
+    height: 6vh;
+    width: 13vw;
+    border-radius: 30px;
+    background-color: rgb(221, 90, 3);
+    height: 6vh;
+    color: azure;
+    border-color: rgb(221, 90, 3);
+}
